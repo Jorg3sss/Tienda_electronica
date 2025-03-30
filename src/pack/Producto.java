@@ -28,6 +28,20 @@ public class Producto {
         return operando5*operando6;
     }
     
+    public void hola(){
+        double j =  operando5*operando6;
+        j =  operando5*operando6;
+        j =  operando5*operando6;
+        System.out.println("Hola");
+    }
+    
+     public void adios(){
+         double j =  operando5*operando6;
+         j =  operando5*operando6;
+         j =  operando5*operando6;
+         System.out.println("adios");
+    }
+    
     private String nombre,nombre2,nombre3;
     private double precio,precio2,precio3;
     private int cantidad,cantidad2,cantidad3;
