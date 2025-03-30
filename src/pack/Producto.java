@@ -42,6 +42,10 @@ public class Producto {
      public double resta2(){
          return operando2 - operando3;
      }
+     
+     public double resta3(){
+         return operando2 - operando3;
+     }
     
     private String nombre,nombre2,nombre3;
     private double precio,precio2,precio3;
