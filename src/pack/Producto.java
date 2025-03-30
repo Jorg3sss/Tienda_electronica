@@ -42,6 +42,11 @@ public class Producto {
      public double resta2(){
          return operando2 - operando3;
      }
+     
+     public double resta6(){
+         System.out.print("hola prueba");
+         return operando3 - operando4;
+     }
     
     private String nombre,nombre2,nombre3;
     private double precio,precio2,precio3;
