@@ -35,12 +35,13 @@ public class Producto {
         System.out.println("Hola");
     }
     
-     public void adios(){
-         double j =  operando5*operando6;
-         j =  operando5*operando6;
-         j =  operando5*operando6;
-         System.out.println("adios");
-    }
+     public double resta(){
+         return operando2 - operando1;
+     }
+     
+     public double resta2(){
+         return operando2 - operando3;
+     }
     
     private String nombre,nombre2,nombre3;
     private double precio,precio2,precio3;
