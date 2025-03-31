@@ -43,9 +43,15 @@ public class Producto {
          return operando2 - operando3;
      }
      
-     public double resta6(){
+
+    public double resta6(){
          System.out.print("hola prueba");
          return operando3 - operando4;
+         }
+    
+     public double resta3(){
+         return operando2 - operando3;
+
      }
     
     private String nombre,nombre2,nombre3;
